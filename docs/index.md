@@ -6,6 +6,6 @@
 ## 4. Les condicions de les reserves
 ## 5. Funcionament de les dades
 ## 6. Resum de les regles
-# 2 · Preparar les eines i l’aparador
+# F2 · Preparar les eines i l’aparador
 ## 1. Preparar el repositorio
 ## 2. Practicar el control de versiones
