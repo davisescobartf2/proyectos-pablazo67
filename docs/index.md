@@ -1,4 +1,4 @@
-![alt text](image.png)
+![alt text](logo.png)
 # F1 · Definir l’encàrrec — Clínica dental
 ## 1. El client i el problema
 ## 2. El servei reservable
