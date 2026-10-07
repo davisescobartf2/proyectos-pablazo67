@@ -1,4 +1,4 @@
-![alt text](logo.png)
+![alt text](img/logo.png)
 
 # Nuestros servicios
 
