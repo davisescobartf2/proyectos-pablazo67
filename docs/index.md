@@ -1,6 +1,9 @@
 ![alt text](logo.png)
+
 # Nuestros servicios
-Nuestro negocio es una clínica dental que ofrece distintos servicios relacionados con la salud bucodental como por ejemplo: 
+
+Nuestro negocio es una clínica dental que ofrece distintos servicios relacionados con la salud bucodental como por ejemplo:
+
 - Limpieza bucal.
 - Caries.
 - Ortodoncia.
