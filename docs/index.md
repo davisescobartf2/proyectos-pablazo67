@@ -1,11 +1,5 @@
 ![alt text](logo.png)
-# F1 · Definir l’encàrrec — Clínica dental
-## 1. El client i el problema
-## 2. El servei reservable
-## 3. Les dades necessàries
-## 4. Les condicions de les reserves
-## 5. Funcionament de les dades
-## 6. Resum de les regles
-# F2 · Preparar les eines i l’aparador
-## 1. Preparar el repositorio
-## 2. Practicar el control de versiones
+# Nuestros servicios
+Nuestro negocio es una clínica dental que ofrece distintos servicios relacionados con la salud bucodental. Actualmente, los pacientes pueden solicitar cita llamando por teléfono o contactando directamente con la clínica.
+
+Nuestro servicio es rapido y eficaz gracias a nuestro chat bot IA, con tan solo con poner fecha, hora y el servicio, ¡ya tienes una reserva lista!
