@@ -5,8 +5,8 @@ theme:
 
 plugins:
     - mkdocs-video:
-        mark: "gifs"
         is_video: true
+        mark: "gifs"
         video_loop: true
         video_controls: false
 
