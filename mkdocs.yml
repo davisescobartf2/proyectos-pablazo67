@@ -4,7 +4,12 @@ theme:
   name: torillic
 
 plugins:
-    - mkdocs-video
+    - mkdocs-video:
+        mark: "gifs"
+        is_video: true
+        video_loop: true
+        video_controls: false
+
 
 nav:
   - Inici: index.md
