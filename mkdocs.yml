@@ -1,7 +1,7 @@
 site_name: Documentació del Projecte
 
 theme:
-  name: ivory
+  name: material
 
 markdown_extensions:
   - attr_list
