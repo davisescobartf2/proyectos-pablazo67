@@ -3,6 +3,9 @@ site_name: Documentació del Projecte
 theme:
   name: torillic
 
+plugins:
+    - mkdocs-video
+
 nav:
   - Inici: index.md
   - Grupo: grupo.md

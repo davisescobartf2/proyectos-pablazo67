@@ -25,10 +25,8 @@ jobs:
           python-version: 3.x
 
       - run: pip install mkdocs
-
-      - run: pip install mkdocs-material
-
-      - run: pip install mkdocs-foo-plugin
+      
+      - run: pip install mkdocs-video
 
       - run: pip install mkdocs-torillic
 
