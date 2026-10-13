@@ -28,7 +28,7 @@ jobs:
       
       - run: pip install mkdocs-video
 
-      - run: pip install mkdocs-torillic
+      - run: pip install mkdocs-ivory
 
       - run: mkdocs build
 
