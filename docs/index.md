@@ -1,4 +1,4 @@
-![ReservaFàcil](img/logo.png "Alex Almodóvar, David Escobar y Moha"){ sytle="display: block; margin: 0 auto; width: 25%" }
+![ReservaFàcil](img/logo.png "Alex Almodóvar, David Escobar y Moha"){ sytle="display: block; margin: 0 auto " sytle= "width: 25%" }
 
 # Nuestros servicios
 
