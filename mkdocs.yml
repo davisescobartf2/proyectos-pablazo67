@@ -3,6 +3,10 @@ site_name: Documentació del Projecte
 theme:
   name: torillic
 
+markdown_extensions:
+  - attr_list
+  - md_in_html
+
 plugins:
     - mkdocs-video:
         is_video: true
