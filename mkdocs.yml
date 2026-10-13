@@ -1,7 +1,6 @@
 site_name: Documentació del Projecte
 
-theme:
-  name: torillic
+theme: torillic
 
 nav:
   - Inici: index.md
