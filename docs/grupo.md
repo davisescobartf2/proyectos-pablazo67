@@ -1,6 +1,8 @@
 <span style="font-size: 24px">**Hola, somos el grupo de David, Alex y Moha.**</span>
 
-![David](img/David.png){ width="55" }
-![Alex](img/Alex.png){ width="50" }
-![Moha](img/Moha.png){ width="50" }
+
+<img src="img/David.png" width="55px"/>
+<img src="img/Alex.png" width="55px"/>
+<img src="img/Moha.png" width="55px"/>
+
 ![gifs](videos/verity-minecraft.mp4)
