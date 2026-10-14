@@ -5,10 +5,10 @@
 <span style="font-size: 18px">Nuestro negocio es una clínica dental que ofrece distintos servicios relacionados con la salud bucodental como por ejemplo:</span>
 
 <ul>
-<li style="font-size: 20px"><b>Limpieza bucal</li>
-<li style="font-size: 20px">Caries.</li>
-<li style="font-size: 20px">Ortodoncia.</li>
-<li style="font-size: 20px">Blanqueamiento dental</b></li>
+<li style="font-size: 20px"><b>Limpieza bucal</b></li>
+<li style="font-size: 20px"><b>Caries.</b></li>
+<li style="font-size: 20px"><b>Ortodoncia.</b></li>
+<li style="font-size: 20px"><b>Blanqueamiento dental</b></li>
 </ul>
 
 <span style="font-size: 18px">Actualmente, tenemos un sistema de chat IA donde puedes hacer reservas. </span>
