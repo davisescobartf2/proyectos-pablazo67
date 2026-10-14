@@ -2,13 +2,15 @@
 
 # Nuestros servicios
 
-Nuestro negocio es una clínica dental que ofrece distintos servicios relacionados con la salud bucodental como por ejemplo:
+<span style="font-size: 18px">Nuestro negocio es una clínica dental que ofrece distintos servicios relacionados con la salud bucodental como por ejemplo:</span>
 
-- Limpieza bucal.
-- Caries.
-- Ortodoncia.
-- Blanqueamiento dental
+<ul>
+<li style="font-size: 20px"><b>Limpieza bucal</li>
+<li style="font-size: 20px">Caries.</li>
+<li style="font-size: 20px">Ortodoncia.</li>
+<li style="font-size: 20px">Blanqueamiento dental</b></li>
+</ul>
 
-Actualmente, tenemos un sistema de chat IA donde puedes hacer reservas.
+<span style="font-size: 18px">Actualmente, tenemos un sistema de chat IA donde puedes hacer reservas. </span>
 
-Y gracias a nuestro servicio de reserva es rapido y eficaz gracias a nuestro chat bot IA, con tan solo con poner fecha, hora y el servicio, ¡ya tienes una reserva lista!
+<span style="font-size: 18px">Y gracias a nuestro servicio de reserva es rapido y eficaz gracias a nuestro <b>Chat Bot IA</b>, con tan solo con poner fecha, hora y el servicio, ¡ya tienes una reserva lista!</span>
