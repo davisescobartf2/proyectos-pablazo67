@@ -19,3 +19,4 @@ plugins:
 nav:
   - Inici: index.md
   - Grupo: grupo.md
+  - Explicació: explicacio.md
