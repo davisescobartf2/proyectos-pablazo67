@@ -8,6 +8,9 @@ Para ver el nombre de los containters
 docker exec "nombre containers" "comando linux"
 Ejecuta algo del docker.
 
+docker exec -it "nombre containers" sh
+Ejecuta un comando que permite entar en una terimnal que es la maquina de nginx.
+
 NO PONER EL DE ABAJO A MENOS QUE LO PIDAN
 docker dompose down
 ^tira todo los cambios no guardados, NO PONER SIEMPRE.
