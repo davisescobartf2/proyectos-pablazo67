@@ -1,39 +1,198 @@
-<!doctype html>
+
+<!DOCTYPE html>
 <html lang="ca">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>ReservaFàcil · Esquelet</title>
-  <link rel="stylesheet" href="/css/styles.css">
-  <script type="module" src="/js/app.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Clínica Dental Somriure. Cuidem del teu somriure amb els millors professionals.">
+  <title>Clínica Dental Somriure</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
 </head>
 <body>
-  <!-- TODO F1/F4: identitat, servei, horaris i condicions coherents amb config.js. -->
-  <header><h1>Clínica dental</h1><p>TODO: presentació del negoci.</p>
-    <nav><a href="#reserva">Reservar</a> · <a href="#assistent">Assistent</a> · <a href="/gestion/">Gestió</a></nav>
+
+  <header class="header">
+    <div class="container nav-container">
+      <a href="#" class="logo">🦷 Somriure<span>+</span></a>
+      <nav>
+        <a href="#inici">Inici</a>
+        <a href="#serveis">Serveis</a>
+        <a href="#reserva">Reservar cita</a>
+        <a href="#contacte">Contacte</a>
+      </nav>
+      <a href="#reserva" class="nav-button">Demana cita</a>
+    </div>
   </header>
+
   <main>
-    <section id="reserva">
-      <h2>Reserva una cita</h2>
-      <form id="booking-form">
-        <label>Nom <input name="name" required minlength="2" maxlength="100"></label>
-        <label>Data <input name="date" type="date" required></label>
-        <label>Hora <select name="time" required disabled><option value="">Consulta una data</option></select></label>
-        <label>Comensals <input name="diners" type="number" min="1" max="8" required></label>
-        <button type="submit">Reservar</button>
-      </form>
-      <p id="booking-status" role="status">TODO F4: connectar el formulari.</p>
+    <section class="hero" id="inici">
+      <div class="container hero-content">
+        <div class="hero-text">
+          <span class="tag">LA TEVA CLÍNICA DENTAL DE CONFIANÇA</span>
+          <h1>Una salut bucodental perfecta comença amb un <span>somriure.</span></h1>
+          <p>
+            A Clínica Dental Somriure cuidem de tu i de la teva salut dental.
+            Oferim tractaments professionals amb tecnologia moderna i un tracte proper.
+          </p>
+          <div class="hero-buttons">
+            <a href="#reserva" class="btn-primary">Reservar una cita</a>
+            <a href="#serveis" class="btn-secondary">Els nostres serveis</a>
+          </div>
+          <div class="hero-info">
+            <div><strong>+10</strong><small>Anys d'experiència</small></div>
+            <div><strong>+2.000</strong><small>Pacients satisfets</small></div>
+            <div><strong>100%</strong><small>Compromís amb tu</small></div>
+          </div>
+        </div>
+        <div class="hero-image">
+          <img src="https://images.unsplash.com/photo-1606811971618-4486d14f3f99?auto=format&fit=crop&w=900&q=85" alt="Professional d'una clínica dental">
+          <div class="floating-card">
+            <span>✓</span>
+            <div><strong>Atenció professional</strong><small>El teu somriure és la nostra prioritat</small></div>
+          </div>
+        </div>
+      </div>
     </section>
-    <section id="assistent">
-      <h2>Assistent</h2>
-      <div id="messages" role="log" aria-live="polite"><p>TODO F5: missatge de benvinguda.</p></div>
-      <form id="chat-form">
-        <label>Missatge <input name="message" maxlength="500" required></label>
-        <button type="submit">Enviar</button>
-      </form>
-      <p id="chat-status" role="status"></p>
+
+    <section class="services section" id="serveis">
+      <div class="container">
+        <div class="section-heading">
+          <span class="tag">QUÈ T'OFERIM?</span>
+          <h2>Els nostres serveis dentals</h2>
+          <p>Tenim cura de la teva boca amb tractaments adaptats a les teves necessitats.</p>
+        </div>
+
+        <div class="service-grid">
+          <article class="service-card">
+            <div class="service-icon">🦷</div>
+            <h3>Revisió dental</h3>
+            <p>Revisions periòdiques per prevenir problemes i mantenir una boca sana.</p>
+          </article>
+          <article class="service-card">
+            <div class="service-icon">✨</div>
+            <h3>Neteja dental</h3>
+            <p>Eliminem la placa i el carrall per aconseguir unes dents més netes.</p>
+          </article>
+          <article class="service-card">
+            <div class="service-icon">😁</div>
+            <h3>Blanquejament</h3>
+            <p>Millorem l'estètica del teu somriure amb tractaments professionals.</p>
+          </article>
+          <article class="service-card">
+            <div class="service-icon">🛠️</div>
+            <h3>Ortodontícia</h3>
+            <p>Corregim la posició de les dents per aconseguir una mossegada adequada.</p>
+          </article>
+        </div>
+      </div>
     </section>
-    <section><h2>Condicions</h2><p>TODO F1: una taula, durada, capacitat, dies i hores. Dades fictícies.</p></section>
+
+    <section class="reservation section" id="reserva">
+      <div class="container reservation-container">
+        <div class="reservation-info">
+          <span class="tag">RESERVA ONLINE</span>
+          <h2>Demana la teva cita en pocs passos</h2>
+          <p>Escull el tractament, selecciona el dia i l'hora que millor et vagi. Nosaltres ens encarreguem de la resta.</p>
+          <div class="info-item">✓ Reserva fàcil i ràpida</div>
+          <div class="info-item">✓ Diferents horaris disponibles</div>
+          <div class="info-item">✓ Atenció personalitzada</div>
+        </div>
+
+        <div class="booking-card">
+          <h3>Reserva una cita</h3>
+          <p class="form-subtitle">Omple les dades següents:</p>
+
+          <form id="booking-form">
+            <label>Nom complet
+              <input type="text" name="name" placeholder="El teu nom" minlength="2" maxlength="100" required>
+            </label>
+
+            <label>Telèfon
+              <input type="tel" name="phone" placeholder="600 000 000" pattern="[0-9 +()-]{9,18}" required>
+            </label>
+
+            <label>Tractament
+              <select name="service" required>
+                <option value="">Selecciona un servei</option>
+                <option>Revisió dental</option>
+                <option>Neteja dental</option>
+                <option>Blanquejament</option>
+                <option>Ortodontícia</option>
+              </select>
+            </label>
+
+            <label>Data
+              <input type="date" name="date" id="date" required>
+            </label>
+
+            <label>Hora disponible
+              <select name="time" id="time" required disabled>
+                <option value="">Primer selecciona una data</option>
+              </select>
+            </label>
+
+            <button type="submit" class="btn-primary full-button">Confirmar reserva</button>
+          </form>
+
+          <p id="booking-status" role="status" aria-live="polite"></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="assistant section" id="assistent">
+      <div class="container assistant-container">
+        <div>
+          <span class="tag">T'AJUDEM?</span>
+          <h2>Assistent virtual</h2>
+          <p>Tens dubtes sobre els nostres serveis o horaris? El nostre assistent virtual et pot ajudar.</p>
+        </div>
+
+        <div class="chat-card">
+          <div class="chat-header">
+            <div class="chat-avatar">🦷</div>
+            <div><strong>Assistent Somriure</strong><small>En línia · Respostes automàtiques</small></div>
+          </div>
+          <div id="messages" class="messages" role="log" aria-live="polite">
+            <div class="bot-message">Hola! Benvingut a Clínica Dental Somriure. Com et puc ajudar?</div>
+          </div>
+          <form id="chat-form" class="chat-form">
+            <input name="message" placeholder="Escriu la teva pregunta..." maxlength="500" required>
+            <button type="submit" aria-label="Enviar missatge">➤</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="conditions section" id="contacte">
+      <div class="container conditions-grid">
+        <div>
+          <span class="tag">INFORMACIÓ</span>
+          <h2>Horaris i condicions</h2>
+          <p>Volem oferir-te una atenció còmoda i adaptada a les teves necessitats.</p>
+        </div>
+        <div class="condition-card">
+          <h3>Horari d'atenció</h3>
+          <p>Dilluns a divendres: 09:00 - 18:00</p>
+          <p>Dissabte: 09:00 - 13:00</p>
+          <p>Diumenge: Tancat</p>
+        </div>
+        <div class="condition-card">
+          <h3>Condicions de reserva</h3>
+          <p>La durada aproximada de cada cita és de 30 minuts.</p>
+          <p>Les reserves són individuals.</p>
+          <p>Cal avisar amb antelació si vols cancel·lar.</p>
+        </div>
+      </div>
+    </section>
   </main>
+
+  <footer>
+    <div class="container footer-content">
+      <a href="#" class="logo">🦷 Somriure<span>+</span></a>
+      <p>© 2026 Clínica Dental Somriure. Tots els drets reservats.</p>
+      <p>El teu somriure, la nostra prioritat.</p>
+    </div>
+  </footer>
+
 </body>
 </html>
