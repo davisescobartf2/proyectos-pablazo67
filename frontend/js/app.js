@@ -43,3 +43,4 @@ bookingForm.elements.date.addEventListener('change', loadAvailability);
 bookingForm.addEventListener('submit', submitReservation);
 chatForm.addEventListener('submit', sendMessage);
 loadBusiness();
+// Cambio da igual esto

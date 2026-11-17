@@ -7,3 +7,4 @@ table { border-collapse: collapse; }
 th, td { border: 1px solid #aaa; padding: .4rem; }
 #messages { min-height: 5rem; border: 1px solid #aaa; padding: .5rem; }
 /* TODO: diferenciar usuario/asistente, espera, error y confirmación. */
+/* Cambio da igual esto
