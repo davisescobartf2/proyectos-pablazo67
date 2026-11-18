@@ -7,9 +7,11 @@ Nuestro negocio es una clínica dental que ofrece una  variedad de distintos ser
 - **Limpieza bucal**
 
 Haremos una limpieza y procedimiento preventivo realizado que consiste en eliminar la placa bacteriana y el sarro acumulado en los dientes y debajo de las encías. Este tratamiento es esencial para mantener la salud bucodental y prevenir enfermedades como caries y gingivitis.
+
 - **Caries**
 
 Retiraremos el tejido dental dañado por la caries y curaremos el diente, generalmente con un empaste. Si la caries es muy profunda, el tratamiento puede requerir una endodoncia en lugar de un empaste simple.
+
 - **Ortodoncia**
 
 En la Ortodoncia haremos un diagnostico y corrección de la posición irregular de los dientes y las alteraciones de la mordida y los maxilares. Su objetivo es mejorar la función bucal y contribuir a la salud y estética dental.
