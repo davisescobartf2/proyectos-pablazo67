@@ -4,9 +4,14 @@
 
   /* b) Color de la letra */
   --md-default-fg-color: #61747b;
-  --md-typeset-color: #cdd6f4;
+  --md-typeset-color: #61747b;
 
   /* c) Color del header (barra superior) */
   --md-primary-fg-color: #087f8c;
   --md-primary-bg-color: #ffffff; /* texto e iconos sobre el header */
+
+   /* Variantes más tenues (menús, texto secundario, h1, etc.) */
+  --md-default-fg-color--light: #123b46;
+  --md-default-fg-color--lighter: #0b808d;
+  --md-default-fg-color--lightest: #123b46;
 }
