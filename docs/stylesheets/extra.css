@@ -1,0 +1,12 @@
+[data-md-color-scheme="slate"] {
+  /* a) Fondo de la página */
+  --md-default-bg-color: #ffffff;
+
+  /* b) Color de la letra */
+  --md-default-fg-color: #61747b;
+  --md-typeset-color: #cdd6f4;
+
+  /* c) Color del header (barra superior) */
+  --md-primary-fg-color: #087f8c;
+  --md-primary-bg-color: #ffffff; /* texto e iconos sobre el header */
+}
