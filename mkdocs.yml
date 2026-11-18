@@ -3,6 +3,7 @@ site_name: Documentació del Projecte
 theme:
   name: mkdocs
   palette:
+    scheme: slate
     primary: custom
     accent: custom
 
